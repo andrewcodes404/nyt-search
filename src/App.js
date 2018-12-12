@@ -5,7 +5,7 @@ class App extends Component {
     super(props);
     this.state = { formValue: "", results: null };
   }
-
+  
   handleChange = (event) => {
     this.setState({ formValue: event.target.value });
   }
