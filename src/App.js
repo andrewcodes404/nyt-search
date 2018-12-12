@@ -5,7 +5,7 @@ class App extends Component {
     super(props);
     this.state = { formValue: "", results: null };
   }
-  
+
   handleChange = (event) => {
     this.setState({ formValue: event.target.value });
   }
@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
 
       <div className="logo">
-       <img src="https://www.nytco.com/wp-content/themes/nytco/images/nytco/NYT-wordmark.png" alt="new york times logo"/>
+       <img src="https://www.famouslogos.net/images/new-york-times-logo.jpg" alt="new york times logo"/>
        </div> 
 
         <form>
