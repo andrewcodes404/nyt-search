@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import logo from "./logo.png"
+
 
 class App extends Component {
   constructor(props) {
@@ -34,11 +36,12 @@ class App extends Component {
 
 
   render() {
+    console.log("logo = ", logo);
     return (
       <div className="App">
 
       <div className="logo">
-       <img src="https://www.famouslogos.net/images/new-york-times-logo.jpg" alt="new york times logo"/>
+       <img src={logo} alt="new york times logo"/>
        </div> 
 
         <form>
